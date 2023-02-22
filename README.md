@@ -33,7 +33,7 @@ To start the spring-boot tomcat service
 
 `mvn spring-boot:run`
 
-The service will be up and running in "[http://locallost:8080/cloudservice](http://locallost:8080/cloudservice)"
+The service will be up and running in "[http://locallost:8081/cloudservice](http://locallost:8081/cloudservice)"
 
 ## API Endpoints
 
@@ -99,7 +99,7 @@ Param:planName
 
 Swagger UI - API Documentation
 
-Swagger UI with API documentation can be accessed via http://localhost:8080/swagger-ui/index.html
+Swagger UI with API documentation can be accessed via http://localhost:8081/swagger-ui/index.html
 
 
 ## How to build with tests
