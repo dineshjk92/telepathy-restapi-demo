@@ -33,6 +33,8 @@ To start the spring-boot tomcat service
 
 `mvn spring-boot:run`
 
+The service will be up and running in "[http://locallost:8080/cloudservice](http://locallost:8080/cloudservice)"
+
 ## How to build with tests
 
 Prerequisite:Start the service by running the above spring-boot command. 
