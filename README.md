@@ -118,4 +118,10 @@ To build without tests, run the below command from the project root directory
 
 `mvn clean install -U dependency:copy-dependencies -DskipTests`
 
+## Docker image
+
+The docker image for this RESTFul API service is available at https://hub.docker.com/r/dineshjk92/telepathy-rest-demo-0.0.1
+
+Docker image name: dineshjk92/telepathy-rest-demo-0.0.1
+
 
