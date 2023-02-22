@@ -35,13 +35,17 @@ To start the spring-boot tomcat service
 
 ## How to build with tests
 
-Start the service by running the above spring-boot command. To build along with the tests, run the below command from the project root directory
+Prerequisite:Start the service by running the above spring-boot command. 
+
+To build along with the tests, run the below command from the project root directory
 
 `mvn clean install -U dependency:copy-dependencies`
 
 ## How to build without tests
 
-Start the service by running the above spring-boot command. To build along with the tests, run the below command from the project root directory
+Prerequisite:Start the service by running the above spring-boot command.
+
+To build without tests, run the below command from the project root directory
 
 `mvn clean install -U dependency:copy-dependencies -DskipTests`
 
