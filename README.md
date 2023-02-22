@@ -4,21 +4,21 @@ This project has been implemented with RESTful API service using spring-boot fra
 
 ## Project Tree 
 
-├───src
-│   ├───main
-│   │   ├───java
-│   │   │   └───org
-│   │   │       └───example
-│   │   │           └───telepathyrestdemo
-│   │   │               ├───controller
-│   │   │               ├───model
-│   │   │               └───service
-│   │   └───resources
-│   └───test
-│       └───java
-│           └───org
-│               └───example
-│                   └───telepathyrestdemo
+* ├───src
+* │   ├───main
+* │   │   ├───java
+* │   │   │   └───org
+* │   │   │       └───example
+* │   │   │           └───telepathyrestdemo
+* │   │   │               ├───controller
+* │   │   │               ├───model
+* │   │   │               └───service
+* │   │   └───resources
+* │   └───test
+* │       └───java
+* │           └───org
+* │               └───example
+* │                   └───telepathyrestdemo
 
 ## Inside "src" directory,
 * Model: Pojo class for Plan
