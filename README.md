@@ -35,6 +35,73 @@ To start the spring-boot tomcat service
 
 The service will be up and running in "[http://locallost:8080/cloudservice](http://locallost:8080/cloudservice)"
 
+## API Endpoints
+
+### Add a plan
+
+POST: http://localhost:8081/cloudservice
+
+RequestBody: 
+```json
+{
+"planName":"Plan3",
+"planPrice":"50",
+"planFeatures": [
+      "database"
+    ]
+}
+```
+
+### Get a plan detail
+
+GET: http://localhost:8081/cloudservice/{planName}
+
+Param:planName
+
+### Get all plan details
+
+GET: http://localhost:8081/cloudservice/plans
+
+### Find Best plan
+
+POST: http://localhost:8081/cloudservice/findbestplan
+
+RequestBody:
+```json
+[
+  "plan1",
+  "plan2",
+  "plan3"...
+]
+```
+
+### Update a plan
+
+PUT: http://localhost:8081/cloudservice
+
+RequestBody:
+```json
+{
+"planName":"Plan3",
+"planPrice":"50",
+"planFeatures": [
+      "database"
+    ]
+}
+```
+
+### Delete a plan
+
+DELETE: http://localhost:8081/cloudservice/{planName}
+
+Param:planName
+
+
+Swagger UI - API Documentation
+
+Swagger UI with API documentation can be accessed via http://localhost:8080/swagger-ui/index.html
+
+
 ## How to build with tests
 
 Prerequisite:Start the service by running the above spring-boot command. 
